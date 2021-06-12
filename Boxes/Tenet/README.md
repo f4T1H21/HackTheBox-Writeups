@@ -118,7 +118,7 @@ $app -> update_db();
 ?>
 ```
 
-# Foothold: `PHP Object Injection` aka `PHP Deserialization`
+# Foothold: `PHP Object Injection` aka `Deserialization`
 __Okay, here comes my explanation:__
 
 >In a PHP code, if a class has a function named `__destruct`; when we `unserialize` the class, PHP calls the `__destruct` function in that class. Problem begins in the class's `__destruct` function's content; if the function writes variables' data to a file, then we can exploit it by changing values of serialized class's variables.
