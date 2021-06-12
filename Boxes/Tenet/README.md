@@ -188,7 +188,7 @@ __Attention__: Change the ip address part.
 
 __💥BOOM We got a shell as `www-data`!!!__
 
-# Privilege Escalation: Abuse of `sudo` privileged script
+# Privilege Escalation: Abuse of a `sudo` privileged script
 Before escalating to `root`, let's first become the user neil as you can remember we found him in comments.
 ## Escalating to user
 There's a `/var/www/html/wordpress` directory, and usually the wordpress directories contain credentials inside a file named wp-config.php in them.
