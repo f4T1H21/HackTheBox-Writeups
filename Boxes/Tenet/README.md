@@ -272,7 +272,7 @@ Let me explain what this script actually does:
 - After that writes the content of `/tmp/ssh-XXXXXXXX` -which now has the public ssh key of root inside it- to `/root/.ssh/authorized_keys`.
 - And finally deletes the `/tmp/ssh-XXXXXXXX` file.
 
-Now the thing is: We can't change the public key in the script as we don't have write privilege on the script file, but we can change the public key in the file which script randomly generates everytime it runs.
+Now the thing is: We can't change the public key in the script as we don't have write premission on the script file, but we can change the public key in the file which script randomly generated everytime it runs.
 
 Through this, we can be able to `ssh` into `root@tenet.htb` without password or any other thing.
 
