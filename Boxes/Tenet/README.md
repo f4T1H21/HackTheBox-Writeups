@@ -125,7 +125,7 @@ __Okay, here comes my explanation:__
 
 - Google to know more about this vulnerability.
 - You may want to read [this](https://medium.com/swlh/exploiting-php-deserialization-56d71f03282a/) article to make things more clear in your brain.
-- If you know Turkish, [this](https://www.mehmetince.net/php-object-injection-saldirilari-ve-korunmasi/) article can also be useful for you.
+- If you know Turkish, [this](https://www.mehmetince.net/php-object-injection-saldirilari-ve-korunmasi/) article by [@mdisec](https://github.com/mdisec) can also be useful for you.
 
 __The relationship with our case:__
 
@@ -335,5 +335,6 @@ If you liked my writeup, consider [suporting]() a student to get `OSCP` exam and
 # Resources
 |`Exploiting PHP Deserialization`|https://medium.com/swlh/exploiting-php-deserialization-56d71f03282a|
 |:-|:-|
+|__`PHP Object Injection Saldırıları`__|__https://www.mehmetince.net/php-object-injection-saldirilari-ve-korunmasi/__|
 
 ___Written by f4T1H___
