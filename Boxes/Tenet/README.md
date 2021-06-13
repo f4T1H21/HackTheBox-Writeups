@@ -44,7 +44,7 @@ We have only an "`Apache 2` `Ubuntu` Default Page" here. Let's do some further e
 #### Scanning subdirectories
 Personally I love `gobuster`, so I'm going with it. You can go with `wfuzz` or `ffuf` or your own tool.
 ```sh
-┌──(root💀kali)-[~/hackthebox/tenet]
+┌──(root💀f4T1H)-[~/hackthebox/tenet]
 └─> gobuster dir -q -u http://10.10.10.223 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x .txt,.php -e
 http://10.10.10.223/users.txt            (Status: 200) [Size: 7]
 http://10.10.10.223/wordpress            (Status: 301) [Size: 316] [--> http://10.10.10.223/wordpress/]
