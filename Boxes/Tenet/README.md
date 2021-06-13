@@ -2,7 +2,7 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/profile/94858">egotisticalSW</a></p>
 
 # Personal thoughts
-This is a custom exploitation box, and you obviously need to know about `PHP Object Injection` and a bit of scripting.. Enjoyed solving it and learned new things; apart from the foothold, it's not a medium-leveled box. I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting]() a student to get `OSCP` exam and +respecting my profile in HTB.
+This is a custom exploitation box, and you obviously need to know about `PHP Object Injection` and a bit of scripting.. Enjoyed solving it and learned new things; apart from the foothold, it's not even a medium-leveled box. I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting]() a student to get `OSCP` exam and +respecting my profile in HTB.
 
 Now, let me get right into it.
 
@@ -78,7 +78,7 @@ Let's first learn which extensions are being used in backup files..
 
 Okay, now we need to check these 3 backup extensions with their two variations (uppercase and lowercase) and on the two `root` directories which are `tenet.htb/` and `10.10.10.223/`.
 
-After the hit and try, I found the files in `10.10.10.223/sator.php` and `10.10.10.223/sator.php.bak`. Download and move `sator.php.bak` you current working directory.
+After the hit and try, I found the files in `10.10.10.223/sator.php` and `10.10.10.223/sator.php.bak`. Download and move `sator.php.bak` into your current working directory.
 
 __sator.php__
 
