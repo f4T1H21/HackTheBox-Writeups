@@ -124,7 +124,8 @@ __Okay, here comes my explanation:__
 >In a PHP code, if a class has a function named `__destruct`; when we `unserialize` the class, PHP calls the `__destruct` function in that class. Problem begins in the class's `__destruct` function's content; if the function writes variables' data to a file, then we can exploit it by changing values of serialized class's variables.
 
 - Google to know more about this vulnerability.
-- You may want to read [this](https://medium.com/swlh/exploiting-php-deserialization-56d71f03282a) article to make things more clear in your brain.
+- You may want to read [this](https://medium.com/swlh/exploiting-php-deserialization-56d71f03282a/) article to make things more clear in your brain.
+- If you know Turkish, [this](https://www.mehmetince.net/php-object-injection-saldirilari-ve-korunmasi/) article can also be useful for you.
 
 __The relationship with our case:__
 
@@ -189,7 +190,7 @@ __Attention__: Change the ip address part.
 __💥BOOM We got a shell as `www-data`!!!__
 
 # Privilege Escalation: Abuse of a `sudo` privileged script
-Before escalating to `root`, let's first become the user neil as you can remember we found him in comments.
+Before escalating to `root`, let's first become the user `neil` as you can remember we found him in comments.
 ## Escalating to user
 There's a `/var/www/html/wordpress` directory, and usually the wordpress directories contain credentials inside a file named wp-config.php in them.
 
@@ -269,7 +270,7 @@ Oh, here comes the second fun part..
 Let me explain what this script actually does:
 - First creates a randomly-generated named file format of `/tmp/ssh-XXXXXXXX`. Think like you can add change each of "X" characters in the name with any other random character.
 - Then writes `root@ubuntu`'s public ssh key inside that file.
-- After that writes the content of `/tmp/ssh-XXXXXXXX` -which now has the public ssh key of root inside it- to `/root/.ssh/authorized_keys`.
+- After that writes the content of `/tmp/ssh-XXXXXXXX` -which now has the public ssh key of `root` inside it- to `/root/.ssh/authorized_keys`.
 - And finally deletes the `/tmp/ssh-XXXXXXXX` file.
 
 Now the thing is: We can't change the public key in the script as we don't have write premission on the script file, but we can change the public key in the file which script randomly generated everytime it runs.
