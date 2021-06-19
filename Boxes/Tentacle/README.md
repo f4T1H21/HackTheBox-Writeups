@@ -269,7 +269,7 @@ uid=1000(j.nakazawa) gid=1000(j.nakazawa) groups=1000(j.nakazawa),23(squid),100(
 Here we finally got the user ...
 
 # Privilege escalation:
-## Escalating `admin`
+## Escalating `admin`: Abusing cronjob
 While enumerating the box, I came out with the following `cronjob`:
 ```bash
 [j.nakazawa@srv01 ~]$ cat /etc/crontab
@@ -310,7 +310,7 @@ drwx-wx---.  3 admin  squid    53 Jun 19 05:49 squid
 [j.nakazawa@srv01 tmp]$
 ```
 
-Here you can see we are in the group of `squid`, we can write and execute the content of `/var/log/squid`.<br>
+Here you can see we are in the group of `squid`, we can write and execute the content of `/var/log/squid`. So if we put something into `/var/log/squid` it'll be copied to `/home/admin`. It may take a long or a short time depending on the size of the directory.<br><br>
 The initial idea was copying our public ssh key to `/home/admin/.ssh/authorized_keys`, but after further testing I came out to the conclusion that it is not allowed/enabled.
 
 Hmm let's think about the clue, you remember what was it? Yeah, you're right it is literally: `Kerberos`<br>
@@ -336,7 +336,7 @@ ssh admin@10.10.10.224
 
 Yupp, that works!
 
-## Escalating `root`
+## Escalating `root`: Misconfigured keytab
 Actually we noticed this file earlier but as we hadn't had permissions on that, we couldn't use it.<br>
 The file is: `/etc/krb5.keytab` Fine but,
 
