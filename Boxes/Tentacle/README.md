@@ -269,7 +269,7 @@ uid=1000(j.nakazawa) gid=1000(j.nakazawa) groups=1000(j.nakazawa),23(squid),100(
 Here we finally got the user ...
 
 # Privilege escalation:
-## Escalating `admin`: Abusing cronjob
+## Escalating `admin`: Cronjob abuse
 While enumerating the box, I came out with the following `cronjob`:
 ```bash
 [j.nakazawa@srv01 ~]$ cat /etc/crontab
