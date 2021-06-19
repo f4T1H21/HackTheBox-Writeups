@@ -189,7 +189,7 @@ __Attention__: Change the ip address part.
 
 __💥BOOM We got a shell as `www-data`!!!__
 
-# Privilege Escalation: Abuse of a `sudo` privileged script
+# Privilege Escalation: Race Condition
 Before escalating to `root`, let's first become the user `neil` as you can remember we found him in comments.
 ## Escalating to user
 There's a `/var/www/html/wordpress` directory, and usually the wordpress directories contain credentials inside a file named wp-config.php in them.
@@ -265,7 +265,7 @@ addKey
 checkAdded
 ```
 
-Oh, here comes the second fun part..
+Oh, here comes the second fun part, which is a `Race Condition`
 
 Let me explain what this script actually does:
 - First creates a randomly-generated named file format of `/tmp/ssh-XXXXXXXX`. Think like you can add change each of "X" characters in the name with any other random character.
@@ -273,7 +273,7 @@ Let me explain what this script actually does:
 - After that writes the content of `/tmp/ssh-XXXXXXXX` -which now has the public ssh key of `root` inside it- to `/root/.ssh/authorized_keys`.
 - And finally deletes the `/tmp/ssh-XXXXXXXX` file.
 
-Now the thing is: We can't change the public key in the script as we don't have write premission on the script file, but we can change the public key in the file which script randomly generated everytime it runs.
+Now the thing is: There is a race condition here because we can change content of the file created with a simple bash looop before the script gets executed the next line which is adding the content to /root/authorized_keys.
 
 Through this, we can be able to `ssh` into `root@tenet.htb` without password or any other thing.
 
