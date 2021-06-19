@@ -57,7 +57,7 @@ We got two things here:
 Add the domain to `/etc/hosts` and let's continue with the port `3128/http-proxy`.
 
 ## 3128/http-proxy
-![3128browser](src/3128browser.png)
+![](src/3128browser.png)
 
 Here we got another two things:
 - `j.nakazawa@realcorp.htb` a username and another domain.
@@ -138,7 +138,7 @@ function FindProxyForURL(url, host) {
 This time we catch a tartar, that's a totally new `subnet`...<br>
 We can't use host discovery in `nmap`, that makes things too long. But I used my mind and made things easier; while scanning the whole ip range, I encountered one ` ... OK` and moved from that ip address.
 
-![subnetscan](src/subnetscan.png)
+![](src/subnetscan.png)
 
 # Foothold: CVE 2020-22-77
 Let's scan this ip address's running service versions:
@@ -387,11 +387,11 @@ ksu root
 <Enter the same password>
 ```
 
-![root.png](src/root.png)
+![](src/root.png)
 
 And we finally R00Ted the machine....
 
-![/src/gifs/pwned.gif](src/pwned.gif)
+![](/src/gifs/pwned.gif)
 
 ---
 
