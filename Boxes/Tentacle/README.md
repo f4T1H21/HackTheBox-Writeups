@@ -204,6 +204,8 @@ And here we got some credentials: `j.nakazawa`:`sJB}RM>6Z~64_`<br>
 But weirdly ssh was not working for direct login with these credentials!<br><br>
 Thinking about generally a little bit, gives us the big clue: As you can remember we have a `kerberos-sec` server on the main target, which means we can use tickets to authenticate in something if it configured properly!
 
+![](/src/gifs/bingobango.gif)
+
 Okay, let me take one step back:
 
 - What is `kerberos`?
@@ -389,7 +391,7 @@ ksu root
 
 And we finally R00Ted the machine....
 
-![src/pwned.gif](src/pwned.gif)
+![/src/gifs/pwned.gif](src/pwned.gif)
 
 ---
 
