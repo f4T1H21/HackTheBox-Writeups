@@ -140,7 +140,7 @@ We can't use host discovery in `nmap`, that makes things too long. But I used my
 
 ![](src/subnetscan.png)
 
-# Foothold: CVE 2020-22-77
+# Foothold: CVE 2020-7247
 Let's scan this ip address's running service versions:
 
 ```bash
@@ -151,7 +151,7 @@ PORT   STATE SERVICE VERSION
 25/tcp open  smtp    OpenSMTPD
 Service Info: Host: smtp.realcorp.htb
 ```
-After googling a bit about `OpenSMTPD`, I found [this](https://www.qualys.com/2020/01/28/cve-2020-7247/lpe-rce-opensmtpd.txt) article. Now time to exploit it, I tried many exploits from the internet but I'm going to recommend you to use my PoC exploit from [this](https://github.com/f4T1H21/CVE-2020-22-77) link. You can see, it definitely makes sense!
+After googling a bit about `OpenSMTPD`, I found [this](https://www.qualys.com/2020/01/28/cve-2020-7247/lpe-rce-opensmtpd.txt) article. Now time to exploit it, I tried many exploits from the internet but I'm going to recommend you to use my PoC exploit from [this](https://github.com/f4T1H21/CVE-2020-7247) link. You can see, it definitely makes sense!
 
 ```bash
 ┌──(root💀f4T1H)-[~/hackthebox/tentacle]
@@ -408,7 +408,7 @@ If you liked my writeup, consider [suporting]() a student to get `OSCP` exam and
 |`Proxychains`|__https://www.youtube.com/watch?v=NN9fQwiomAU__|
 |`WPAD protocol`|__https://en.wikipedia.org/wiki/Web_Proxy_Auto-Discovery_Protocol__|
 |`CVE 2020-7247`|__https://www.qualys.com/2020/01/28/cve-2020-7247/lpe-rce-opensmtpd.txt__|
-|`CVE 2020-7247 PoC exploit`|__https://github.com/f4T1H21/CVE-2020-22-77__|
+|`CVE 2020-7247 PoC exploit`|__https://github.com/f4T1H21/CVE-2020-7247__|
 |`.k5login file`|__https://web.mit.edu/kerberos/krb5-1.5/krb5-1.5.4/doc/krb5-user/Granting-Access-to-Your-Account.html__|
 |`keytab file`|__https://kb.iu.edu/d/aumh__|
 |`Kerberos administration program`|__https://web.mit.edu/kerberos/krb5-1.12/doc/admin/admin_commands/kadmin_local.html__|
