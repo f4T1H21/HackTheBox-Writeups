@@ -6,8 +6,7 @@ Easy peasy lemon squeezy; just need to do a little bit of enumeration, even you 
 
 <a href="https://app.hackthebox.eu/profile/184235">
 <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
-</img></a><br><br>
-
+</img></a><br>
 Now, let me get right into it.
 
 ---
