@@ -2,7 +2,7 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/profile/27390">felamos</a></p>
 
 # Personal thoughts
-A box which is an exact example for medium boxes. Really enjoyed solving it and learned new things as epected. As usually, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting]() a student to get `OSCP` exam and __+respecting my profile in HTB__.
+A box which is an exact example for medium boxes. Really enjoyed solving it and learned new things as expected. As usually, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting]() a student to get `OSCP` exam and __+respecting my profile in HTB__.
 
 <a href="https://app.hackthebox.eu/profile/184235">
 <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
