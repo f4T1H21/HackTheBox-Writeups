@@ -33,7 +33,7 @@ Here the only tcp port open apart from `22/ssh` is `8080/http`. Let's have a loo
 
 ## 8080/http
 ![](src/website.png)
-I found an [article](https://swapneildash.medium.com/snakeyaml-deserilization-exploited-b4a2c5ac0858) about exploiting `snakeyaml` `deserialization`. This might related to our case.
+I found an [article](https://swapneildash.medium.com/snakeyaml-deserilization-exploited-b4a2c5ac0858) about exploiting `snakeyaml deserialization`. This might related to our case.
 
 The artice explains exploiting the following case step by step:
 
