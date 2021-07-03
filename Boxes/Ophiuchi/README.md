@@ -37,12 +37,11 @@ I found an [article](https://swapneildash.medium.com/snakeyaml-deserilization-ex
 
 The artice explains exploiting the following case step by step:
 
-
->```
+```
 Yaml yaml = new Yaml();
 Object obj = yaml.load(<--user input data-->);
 ```
-In the above snippet, the vulnerable code is the highlighted(in bold) one.
+>In the above snippet, the vulnerable code is the highlighted(in bold) one.
 <br><br>So during a secure code review of java application if we encounter yaml.load function being used with user input directly being passed to the function, then the application can be vulnerable to deserilization vulnerability which can lead to remote code execution.
 
 Let's try if it works then!
