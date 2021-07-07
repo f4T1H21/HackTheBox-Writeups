@@ -2,12 +2,17 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/polarbearer/159204">polarbearer</a></p>
 
 # Personal thoughts
-A hard box which has less solvers even than an insane box! Made me learn a lot of stuff like dns records, proxychaining, kerberos and so on... As usual, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting]() a student to get `OSCP` exam and +respecting my profile in HTB.
+A hard box which has less solvers even than an insane box! Made me learn a lot of stuff like dns records, proxychaining, kerberos and so on... As usual, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and +respecting my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
-<img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
-</img></a>
-
+  <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
+  </img>
+</a>
+<br>
+<a href=https://www.buymeacoffee.com/f4T1H>
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  </img>
+</a><br><br>
 Now, let me get right into it.
 
 ---
@@ -396,22 +401,30 @@ And we finally R00Ted the machine....
 ---
 
 # Closing
-If you liked my writeup, consider [suporting]() a student to get `OSCP` exam and +respecting my profile in HTB.
+If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
-<img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
-</img></a>
+  <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
+  </img>
+</a>
+<br>
+<a href=https://www.buymeacoffee.com/f4T1H>
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  </img>
+</a>
 
 # Resources
 |`CNAME record`|https://en.wikipedia.org/wiki/CNAME_record|
 |:-|:-|
-|`Proxychains`|__https://www.youtube.com/watch?v=NN9fQwiomAU__|
-|`WPAD protocol`|__https://en.wikipedia.org/wiki/Web_Proxy_Auto-Discovery_Protocol__|
-|`CVE 2020-7247`|__https://www.qualys.com/2020/01/28/cve-2020-7247/lpe-rce-opensmtpd.txt__|
-|`CVE 2020-7247 PoC exploit`|__https://github.com/f4T1H21/CVE-2020-7247__|
-|`.k5login file`|__https://web.mit.edu/kerberos/krb5-1.5/krb5-1.5.4/doc/krb5-user/Granting-Access-to-Your-Account.html__|
-|`keytab file`|__https://kb.iu.edu/d/aumh__|
-|`Kerberos administration program`|__https://web.mit.edu/kerberos/krb5-1.12/doc/admin/admin_commands/kadmin_local.html__|
-|`Kerberized su`|__https://web.mit.edu/kerberos/krb5-latest/doc/user/user_commands/ksu.html__|
+|__`Proxychains`__|__https://www.youtube.com/watch?v=NN9fQwiomAU__|
+|__`WPAD protocol`__|__https://en.wikipedia.org/wiki/Web_Proxy_Auto-Discovery_Protocol__|
+|__`CVE 2020-7247`__|__https://www.qualys.com/2020/01/28/cve-2020-7247/lpe-rce-opensmtpd.txt__|
+|__`CVE 2020-7247 PoC exploit`__|__https://github.com/f4T1H21/CVE-2020-7247__|
+|__`.k5login file`__|__https://web.mit.edu/kerberos/krb5-1.5/krb5-1.5.4/doc/krb5-user/Granting-Access-to-Your-Account.html__|
+|__`keytab file`__|__https://kb.iu.edu/d/aumh__|
+|__`Kerberos administration program`__|__https://web.mit.edu/kerberos/krb5-1.12/doc/admin/admin_commands/kadmin_local.html__|
+|__`Kerberized su`__|__https://web.mit.edu/kerberos/krb5-latest/doc/user/user_commands/ksu.html__|
 
-___Written by f4T1H___
+<br>
+
+___-Written by f4T1H-___
