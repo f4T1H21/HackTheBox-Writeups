@@ -208,17 +208,23 @@ And we successfully pwned the box...
 ![](/src/gifs/pwned.gif)
 
 # Closing
-If you liked my writeup, consider [suporting]() a student to get `OSCP` exam and __+respecting__ my profile in HTB.
+If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
-<img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
-</img></a>
+	<img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
+	</img>
+</a>
+<br>
+<a href=https://www.buymeacoffee.com/f4T1H>
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  </img>
+</a>
 
 # Resources
 |`SnakeYaml Deserialization`|https://swapneildash.medium.com/snakeyaml-deserilization-exploited-b4a2c5ac0858|
 |:-|:-|
-|`WebAssembly`|__https://www.webassemblyman.com/wat_webassembly_text_format.html__|
-|`Wasm2Wat`|__https://webassembly.github.io/wabt/demo/wasm2wat/__|
-|`Wat2Wasm`|__https://webassembly.github.io/wabt/demo/wat2wasm/__|
+|__`WebAssembly`__|__https://www.webassemblyman.com/wat_webassembly_text_format.html__|
+|__`Wasm2Wat`__|__https://webassembly.github.io/wabt/demo/wasm2wat/__|
+|__`Wat2Wasm`__|__https://webassembly.github.io/wabt/demo/wat2wasm/__|
 
-___Written by f4T1H___
+___-Written by f4T1H-___
