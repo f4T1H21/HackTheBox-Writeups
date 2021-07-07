@@ -2,11 +2,18 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/profile/1190">egre55</a></p>
 
 # Personal thoughts
-Easy peasy lemon squeezy; just need to do a little bit of enumeration, even you don't need any special tenhniques for this box. I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting]() a student to get `OSCP` exam and +respecting my profile in HTB.
+Easy peasy lemon squeezy; just need to do a little bit of enumeration, even you don't need any special tenhniques for this box. I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and +respecting my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
-<img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
-</img></a><br>
+  <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
+  </img>
+</a>
+<br>
+<a href=https://www.buymeacoffee.com/f4T1H>
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  </img>
+</a>
+<br><br>
 Now, let me get right into it.
 
 ---
@@ -263,15 +270,22 @@ And we successfully pwned the machine...
 ---
 
 # Closing
-If you liked my writeup, consider [suporting]() a student to get `OSCP` exam and +respecting my profile in HTB.
+If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and +respecting my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
 <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
 </img></a>
+<br>
+<a href=https://www.buymeacoffee.com/f4T1H>
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  </img>
+</a>
 
 # Resources
 |`WordPress Reverse Shell`|https://www.hackingarticles.in/wordpress-reverse-shell/|
 |:-|:-|
-|`initctl with sudo`|__https://isharaabeythissa.medium.com/sudo-privileges-at-initctl-privileges-escalation-technique-ishara-abeythissa-c9d44ccadcb9__|
+|__`initctl with sudo`__|__https://isharaabeythissa.medium.com/sudo-privileges-at-initctl-privileges-escalation-technique-ishara-abeythissa-c9d44ccadcb9__|
 
-___Written by f4T1H___
+<br>
+
+___-Written by f4T1H-___
