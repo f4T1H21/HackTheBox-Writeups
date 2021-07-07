@@ -2,12 +2,18 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/profile/27390">felamos</a></p>
 
 # Personal thoughts
-A box which is an exact example for medium boxes. Really enjoyed solving it and learned new things as expected. As usually, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting]() a student to get `OSCP` exam and __+respecting my profile in HTB__.
+A box which is an exact example for medium boxes. Really enjoyed solving it and learned new things as expected. As usually, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting my profile in HTB__.
 
 <a href="https://app.hackthebox.eu/profile/184235">
-<img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
-</img></a><br><br>
-
+  <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
+  </img>
+</a>
+<br>
+<a href=https://www.buymeacoffee.com/f4T1H>
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  </img>
+</a>
+<br><br>
 Now, let me get right into it.
 
 ---
@@ -211,8 +217,8 @@ And we successfully pwned the box...
 If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
-	<img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
-	</img>
+  <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
+  </img>
 </a>
 <br>
 <a href=https://www.buymeacoffee.com/f4T1H>
@@ -226,5 +232,7 @@ If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H
 |__`WebAssembly`__|__https://www.webassemblyman.com/wat_webassembly_text_format.html__|
 |__`Wasm2Wat`__|__https://webassembly.github.io/wabt/demo/wasm2wat/__|
 |__`Wat2Wasm`__|__https://webassembly.github.io/wabt/demo/wat2wasm/__|
+
+<br>
 
 ___-Written by f4T1H-___
