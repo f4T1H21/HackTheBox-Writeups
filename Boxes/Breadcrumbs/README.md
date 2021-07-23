@@ -2,7 +2,7 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/profile/163104">helich0pper</a></p>
 
 # Personal thoughts
-Such a web machine! Directory traversal, PHP session, JWT. On the other hand, nice little hints for privesc. Really enjoyed solving this box. I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting my profile in HTB__.
+Such a web machine! Directory traversal (LFI), PHP session, JWT. On the other hand; Reversing and SQLi. The most instructive box I solved so far, thanks [@helich0pper](https://github.com/helich0pper)! The most I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting my profile in HTB__.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
