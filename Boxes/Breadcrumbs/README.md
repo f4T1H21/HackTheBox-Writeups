@@ -177,6 +177,8 @@ We first try the `searchBooks` function. I also noticed that the response is a J
 As a test, we first set `title` and `author` param as `a`.<br>
 And we got some result. I think it searches the titles and authors that contains the value we give and prints them out.
 
+## LFI
+
 Let's try other function and see what we get.<br>
 Again we give the value `a` to the param for a test.
 
@@ -400,7 +402,7 @@ I think we missed some web pages about authentication.
 Yes, let's try to create an account.
 
 
-# Foothold: [PHP Session](#phpsession), [JWT](#jwt), [File Upload](#fileupload)
+# Foothold: [PHP Session](#php-session), [JWT](#jwt), [File Upload](#file-upload)
 
 ![](src/dashboard.png)
 
@@ -560,7 +562,7 @@ Now we're ready to go. Fire up the following powershell code to make remote host
 
 ![](src/shell.png)
 
-# Lateral Movement: [SQLite DB](#sqlitecli)
+# Lateral Movement: [SQLite DB](#sqlite-db)
 
 ```powershell
 dir
@@ -729,7 +731,7 @@ plum.sqlite-shm                                                                 
 plum.sqlite-wal
 ```
 
-## SQLite CLI
+## SQLite DB
 
 ```sql
 ┌──(root💀f4T1H)-[~/hackthebox/breadcrumbs/LocalState]
@@ -990,7 +992,7 @@ selectarray(1) {
 }
 ```
 
-Last but not least, we use [cyberchef]() to decrypt our aes encrypted password using the key we dumped and providing one byte characters until it becomes able to proceed the cryptologic operation.
+Last but not least, we use [CyberChef](https://gchq.github.io/CyberChef/) to decrypt our aes encrypted password using the key we dumped and providing one byte characters until it becomes able to proceed the cryptologic operation.
 
 ![](src/cyberchef.png)
 
@@ -1043,6 +1045,7 @@ This writeup took me more than four (6) days to finish. Please consider [suporti
 |`JWT Debugger`|https://jwt.io|
 |:-|:-|
 |__`SQL Information Schema`__|__https://dev.mysql.com/doc/refman/8.0/en/information-schema.html__|
+|__`CyberChef`__|__https://gchq.github.io/CyberChef/__|
 
 <br>
 
