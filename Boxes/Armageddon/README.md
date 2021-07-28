@@ -188,7 +188,7 @@ Change the port both in your nc listener and reverse shell.
 We CAN NOT spawn a tty shell unfortunately.
 We find mysql credentials in one of the files by grepping recursively.
 
-![](src/holdsql.png)
+![](src/mysql.png)
 
 ![](src/sqlcreds.png)
 
