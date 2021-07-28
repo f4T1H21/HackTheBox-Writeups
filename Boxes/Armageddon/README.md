@@ -215,7 +215,7 @@ $S$DgL2gjv6ZtxBo6CdqZEyJuBphBmrCqIV6W97.oOsUf1xAhaadURt:booboo
 
 We can now ssh into brucetherealadmin.
 
-# Privesc: sudo `snap`
+# Privesc: `snapd` dirty_sock (CVE-2019-7304)
 
 ```bash
 [brucetherealadmin@armageddon ~]$ sudo -l
