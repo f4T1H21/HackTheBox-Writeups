@@ -2,14 +2,14 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/polarbearer/159204">polarbearer</a></p>
 
 # Personal thoughts
-A hard box which has less solvers even than an insane box! Made me learn a lot of stuff like dns records, proxychaining, kerberos and so on... As usual, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and +respecting my profile in HTB.
+A hard box which has less solvers even than an insane box! Made me learn a lot of stuff like dns records, proxychaining, kerberos and so on... As usual, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and +respecting my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a><br><br>
@@ -401,14 +401,14 @@ And we finally R00Ted the machine....
 ---
 
 # Closing
-If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
+If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a>

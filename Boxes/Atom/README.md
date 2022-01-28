@@ -2,14 +2,14 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/profile/13531">MrR3boot</a></p>
 
 # Personal thoughts
-Reversing an electron app, PortableKanban and Redis; these are the new stuff I learned from this box. I'm sure you'll learn many new stuff from this writeup. As usually, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting my profile in HTB__.
+Reversing an electron app, PortableKanban and Redis; these are the new stuff I learned from this box. I'm sure you'll learn many new stuff from this writeup. As usually, I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and __+respecting my profile in HTB__.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a><br><br>
@@ -506,14 +506,14 @@ And we successfully pwned the machine...
 ---
 
 # Closing
-If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
+If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a>

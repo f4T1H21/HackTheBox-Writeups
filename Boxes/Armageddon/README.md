@@ -2,14 +2,14 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/profile/27897">bertolis</a></p>
 
 # Personal thoughts
-Easy and multi-way machine. We use Drupalgeddon2 (SA-CORE-2018-002) vuln to get a reverse shell. Then we abuse our sudo privileges by installing a malicious snap package payload. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting my profile in HTB__.
+Easy and multi-way machine. We use Drupalgeddon2 (SA-CORE-2018-002) vuln to get a reverse shell. Then we abuse our sudo privileges by installing a malicious snap package payload. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and __+respecting my profile in HTB__.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a>
@@ -272,14 +272,14 @@ And we sucessfully pwned the box.
 ---
 
 # Closing
-If you liked the writeup, please consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
+If you liked the writeup, please consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a>

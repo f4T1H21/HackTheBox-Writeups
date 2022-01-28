@@ -2,14 +2,14 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/profile/94858">egotisticalSW</a></p>
 
 # Personal thoughts
-This is a custom exploitation box, and you obviously need to know about `PHP Object Injection` and a bit of scripting.. Enjoyed solving it and learned new things; apart from the foothold, it's not even a medium-leveled box. I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting my profile in HTB__.
+This is a custom exploitation box, and you obviously need to know about `PHP Object Injection` and a bit of scripting.. Enjoyed solving it and learned new things; apart from the foothold, it's not even a medium-leveled box. I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and __+respecting my profile in HTB__.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a><br><br>
@@ -335,14 +335,14 @@ And we successfully pwned the machine...
 ---
 
 # Closing
-If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
+If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a>

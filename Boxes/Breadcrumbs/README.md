@@ -2,14 +2,14 @@
 <p align="center">Creator: <a href="https://app.hackthebox.eu/profile/163104">helich0pper</a></p>
 
 # Personal thoughts
-Such a web machine! Directory traversal (LFI), PHP session, JWT. On the other hand; Reversing and SQLi. The most instructive box I solved so far, thanks [@helich0pper](https://github.com/helich0pper)! The most I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting my profile in HTB__.
+Such a web machine! Directory traversal (LFI), PHP session, JWT. On the other hand; Reversing and SQLi. The most instructive box I solved so far, thanks [@helich0pper](https://github.com/helich0pper)! The most I tried to explain the steps as simple as I can. Hope you'll find it useful; if so, consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and __+respecting my profile in HTB__.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a>
@@ -1029,14 +1029,14 @@ We hacked that windows machine successfully.
 ---
 
 # Closing
-This writeup took me more than four (6) days to finish. Please consider [suporting](https://www.buymeacoffee.com/f4T1H) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
+This writeup took me more than four (6) days to finish. Please consider [suporting](https://www.buymeacoffee.com/f4T1H21) a student to get `OSCP` exam and __+respecting__ my profile in HTB.
 
 <a href="https://app.hackthebox.eu/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="f4T1H">
   </img>
 </a>
 <br>
-<a href=https://www.buymeacoffee.com/f4T1H>
+<a href="https://www.buymeacoffee.com/f4T1H21">
   <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
   </img>
 </a>
