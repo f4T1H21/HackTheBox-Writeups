@@ -11,6 +11,13 @@ _You can __give respect me__, thanks!_<br>
 <br><br>
 I'll be posting __retired__ boxes' writeups.
 
+## Search in Writeups
+
+<form method="GET" action="https://github.com/f4T1H21/HackTheBox-Writeups/search">
+  <input name="q" placeholder="Enter Keyword">
+  <button type="submit">Search</button>
+</form>
+
 ## Index
 _My favourite writeup so far:_ ___[Breadcrumbs](Boxes/Breadcrumbs/README.md)___
 
