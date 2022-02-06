@@ -1,5 +1,5 @@
 # Hack The Box Writeups by Şefik Efe
-_You can __give respect me__, thanks!_<br>
+__Would you like to__ respect me in Hack The Box? Thanks in advance :)<br><br>
 <a href="https://app.hackthebox.com/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="Hack The Box">
   </img>
@@ -11,14 +11,10 @@ _You can __give respect me__, thanks!_<br>
 <br><br>
 I'll be posting __retired__ boxes' writeups.
 
-## Search in Writeups
+___You can search keywords and/or topics between writeups using top left corner search bar.___
 
-<form method="GET" action="https://github.com/f4T1H21/HackTheBox-Writeups/search">
-  <input name="q" placeholder="Enter Keyword">
-  <button type="submit">Search</button>
-</form>
+## Index Table
 
-## Index
 _My favourite writeup so far:_ ___[Breadcrumbs](Boxes/Breadcrumbs/README.md)___
 
 <br>
