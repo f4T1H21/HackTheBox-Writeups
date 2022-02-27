@@ -69,7 +69,7 @@ At that point, the initial thought of mine was uploading a php reverse shell as 
 
 At this point, I learnt a new attack vector for SMB! Grabbing user's password hashes using `scf` files.
 
-# Foothoold: Grab user authentication hash using `smb` path in `scf` files
+# Foothold: Grab user authentication hash using `smb` path in `scf` files
 
 Let's have a look at what an `scf` file actually is.
 >SCF stands for Shell Command File and is a file format that supports a very limited set of Windows Explorer commands, such as opening a Windows Explorer window or showing the Desktop. The "Show Desktop" shortcut we all use on a daily basis is an SCF file.
