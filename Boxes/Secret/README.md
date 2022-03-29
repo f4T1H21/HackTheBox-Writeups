@@ -204,7 +204,7 @@ The main references I used while writing this (öhm..öhm..., masterpiece):<br>
 - [JWT Signing part](https://stackoverflow.com/a/46672439)
 
 
-### RCE Script
+### [RCE Script](htb-secret-foothold-exploit.sh)
 
 ```bash
 #!/usr/bin/env bash
