@@ -204,11 +204,12 @@ The main references I used while writing this (öhm..öhm..., masterpiece):<br>
 - [JWT Signing part](https://stackoverflow.com/a/46672439)
 
 
-### RCE.sh
+### RCE Script
 
 ```bash
 #!/usr/bin/env bash
-# Author: Şefik Efe aka f4T1H *** See https://github.com/f4T1H21/HackTheBox-Writeups/tree/main/Boxes/Secret/README.md#RCE.sh
+# Author: Şefik Efe aka f4T1H
+# https://github.com/f4T1H21/HackTheBox-Writeups/tree/main/Boxes/Secret/README.md#rce-script
 
 echo -e "[i] Written with <3 by Şefik Efe aka f4T1H
 [i] Hack The Box Secret Machine Foothold Exploit
