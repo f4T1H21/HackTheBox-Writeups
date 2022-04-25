@@ -10,7 +10,7 @@ Easy peasy lemon squeezy; just need to do a little bit of enumeration, even you 
 </a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
+  <img src="https://raw.githubusercontent.com/f4T1H21/f4T1H21/main/support.png" height="40" alt="Support">
   </img>
 </a>
 <br><br>
@@ -277,7 +277,7 @@ If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H
 </img></a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
+  <img src="https://raw.githubusercontent.com/f4T1H21/f4T1H21/main/support.png" height="40" alt="Support">
   </img>
 </a>
 

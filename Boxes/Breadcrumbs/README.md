@@ -10,7 +10,7 @@ Such a web machine! Directory traversal (LFI), PHP session, JWT. On the other ha
 </a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
+  <img src="https://raw.githubusercontent.com/f4T1H21/f4T1H21/main/support.png" height="40" alt="Support">
   </img>
 </a>
 <br><br>
@@ -1037,7 +1037,7 @@ This writeup took me more than four (6) days to finish. Please consider [suporti
 </a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
+  <img src="https://raw.githubusercontent.com/f4T1H21/f4T1H21/main/support.png" height="40" alt="Support">
   </img>
 </a>
 

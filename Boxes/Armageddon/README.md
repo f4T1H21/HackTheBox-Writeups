@@ -10,7 +10,7 @@ Easy and multi-way machine. We use Drupalgeddon2 (SA-CORE-2018-002) vuln to get 
 </a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
+  <img src="https://raw.githubusercontent.com/f4T1H21/f4T1H21/main/support.png" height="40" alt="Support">
   </img>
 </a>
 <br><br>
@@ -280,7 +280,7 @@ If you liked the writeup, please consider [suporting](https://www.buymeacoffee.c
 </a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
+  <img src="https://raw.githubusercontent.com/f4T1H21/f4T1H21/main/support.png" height="40" alt="Support">
   </img>
 </a>
 

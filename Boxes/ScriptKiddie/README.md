@@ -18,7 +18,7 @@ Constructive feedback is appreciated.
 [My Hack The Box profile](https://app.hackthebox.eu/profile/184235)
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
+  <img src="https://raw.githubusercontent.com/f4T1H21/f4T1H21/main/support.png" height="40" alt="Support">
   </img>
 </a>
 
@@ -116,7 +116,7 @@ sudo /opt/metasploit-framework-6.0.9/msfconsole
 Thanks for reading, see you on another .md file ..
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
+  <img src="https://raw.githubusercontent.com/f4T1H21/f4T1H21/main/support.png" height="40" alt="Support">
   </img>
 </a>
 
