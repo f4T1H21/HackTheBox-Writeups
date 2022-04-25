@@ -10,7 +10,7 @@ Reversing an electron app, PortableKanban and Redis; these are the new stuff I l
 </a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
   </img>
 </a><br><br>
 Now, let me get right into it.
@@ -514,7 +514,7 @@ If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H
 </a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
   </img>
 </a>
 

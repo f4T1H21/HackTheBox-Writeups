@@ -10,7 +10,7 @@ A box which is an exact example for medium boxes. Really enjoyed solving it and 
 </a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
   </img>
 </a>
 <br><br>
@@ -222,7 +222,7 @@ If you liked my writeup, consider [suporting](https://www.buymeacoffee.com/f4T1H
 </a>
 <br>
 <a href="https://www.buymeacoffee.com/f4T1H21">
-  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" width="221" height="40" alt="Support">
+  <img src="https://github.com/f4T1H21/f4T1H21/blob/main/support.png" height="40" alt="Support">
   </img>
 </a>
 
