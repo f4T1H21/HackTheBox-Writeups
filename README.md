@@ -9,7 +9,7 @@ __Would you like to__ respect me in Hack The Box? Thanks in advance :)<br><br>
   </img>
 </a>
 <br><br>
-I'll be posting __retired__ boxes' writeups.
+I'll be posting __retired__ boxes' and some challenges' writeups.
 
 ___You can search keywords and/or topics between writeups using top left corner search bar.___
 
