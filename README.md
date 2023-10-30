@@ -1,5 +1,5 @@
 # Hack The Box Writeups by Şefik Efe
-__Would you like to__ respect me in Hack The Box? Thanks in advance :)<br><br>
+__Would you like to__ give me stars in Hack The Box? Thanks in advance :)<br><br>
 <a href="https://app.hackthebox.com/profile/184235">
   <img src="https://www.hackthebox.eu/badge/image/184235" alt="Hack The Box">
   </img>
